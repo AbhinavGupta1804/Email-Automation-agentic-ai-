@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "source": "Mergers & Inquisitions",
+    "subject": "[Firm Name] – [Time Period] Internship for [University Name] Student",
+    "body": "Mr./Ms. [Name],\n\nI hope you're doing well. My name is [Your Name], and I am a [Your Year / Major] at [Your University]. I'm writing to ask if there might be an internship opportunity at [Firm Name] for [Time Period].\n\nThrough my coursework and personal projects, I have developed skills in [Relevant Skill 1] and [Relevant Skill 2]. I believe these could contribute to [Firm Name]’s work in [Area].\n\nI would love to have a brief call or conversation to explore how I can add value. Thank you for your time and consideration.\n\nBest,\n[Your Name]"
+  },
+  {
+    "id": 2,                                              
+    "source": "Scalenut",
+    "subject": "Inquiry About Internship Opportunities",
+    "body": "Dear [Recipient’s Name],\n\nMy name is [Your Name], and I am a [Your Current Status, e.g., third-year student majoring in Computer Science]. I’ve been following [Company Name]’s work, especially [specific project or value], which really resonates with my interests in [field].\n\nThrough my academic projects and coursework, I’ve gained hands-on experience in [mention 1–2 relevant skills or tools]. I believe these skills could help contribute to [Company Name]'s ongoing work, and I would love to explore any internship openings you might have.\n\nWould you be open to a brief conversation to discuss possible opportunities?\n\nThank you for your time and consideration.\n\nBest regards,\n[Your Name]\n[Your University / Major]\n[Your LinkedIn / Portfolio link]"
+  },
+  {
+    "id": 3,
+    "source": "Inframail",
+    "subject": "Internship Inquiry – [Your Field / Department]",
+    "body": "Hi [Recipient Name],\n\nI hope you're well. I'm [Your Name], a [Your Year & Major] at [University]. I'm reaching out to explore internship opportunities in [Department/Field] at [Company Name].\n\nI have experience working on [Project or Skill], which I believe aligns well with your team’s work in [relevant area]. I've attached my resume and would be grateful for a chance to connect for 10–15 minutes.\n\nThank you for considering my application.\n\nSincerely,\n[Your Name]\n[Email / LinkedIn]"
+  },
+  {
+    "id": 4,
+    "source": "Flodesk",
+    "subject": "Inquiry from an Aspiring [Your Field] Professional",
+    "body": "Hi [Hiring Manager Name],\n\nI'm reaching out because I've been following [Company Name]'s work, and I was particularly impressed by [mention a specific project, article, or achievement]. The way your team approached [detail] really stood out to me.\n\nI'm currently a [Your Year / Major] at [University], working on [briefly describe a relevant project or experience]. I’d love to explore whether there's a possibility for an internship or a short chat to learn more.\n\nWould you be open to a 15-minute call sometime? \n\nThank you for your time.\n\nBest,\n[Your Name]\n[LinkedIn / Portfolio / Resume]"
+  },
+  {
+    "id": 5,
+    "source": "CareerLaunchpad",
+    "subject": "Internship Inquiry – [Company Name] / [Your University]",
+    "body": "Dear [Recipient],\n\nMy name is [Your Name], a [Your Year / Major] at [University]. I’m writing to ask whether there are any internship opportunities at [Company Name].\n\nI have worked on [project / experience], which helped me build skills in [Skill 1] and [Skill 2].\n\nCould we schedule a quick call to discuss this possibility? I’d love to learn more about your team’s work and share how I can contribute.\n\nThanks for your time.\n\nRegards,\n[Your Name]\n[Contact Information]"
+  },
+  {
+    "id": 6,
+    "source": "Capital Placement",
+    "subject": "Cold Internship Inquiry – [Your Name]",
+    "body": "Hello [Recipient Name],\n\nI hope this message finds you well. My name is [Your Name] and I am a [Your Year / Major] at [University]. I am writing to inquire about potential internship opportunities you may have at [Company Name].\n\nI am particularly interested in [specific team / function] and have developed skills in [Skill A] and [Skill B] through my coursework and side projects. Attached is my resume for your reference.\n\nI would appreciate the opportunity to speak with you or someone on your team about how I could contribute. \n\nThank you for considering my application.\n\nSincerely,\n[Your Name]\n[Email Address]"
+  },
+  {
+    "id": 7,
+    "source": "Nick Singh",
+    "subject": "Short Inquiry – Internship at [Company Name]",
+    "body": "Hi [Name],\n\nI’m [Your Name], currently a [Your Year / Major] at [University]. I’ve been following [Company Name] and am very impressed by your work on [project or domain].\n\nI’d love to explore the possibility of interning with your team. I have experience in [Skill 1] and [Skill 2], and I think I can add value while learning from you.\n\nWould you be open to a quick chat? \n\nThanks for your time,\n[Your Name]"
+  },
+  {
+    "id": 8,
+    "source": "Colin Keeley",
+    "subject": "Internship / Job Inquiry at [Startup Name]",
+    "body": "Dear [Name],\n\nMy name is [Your Name], and I'm really excited about the work you’re doing at [Startup Name]. I have a background in [Your Domain], with experience in [Skill / Project]. I want to offer what I can to help, whether that’s as an intern or in another capacity.\n\nI’d appreciate a chance to speak with you to learn more about your company’s needs and how I can contribute. \n\nThanks for considering my request — I’m excited about the possibility.\n\nBest,\n[Your Name]\n[LinkedIn / Portfolio]"
+  },
+  {
+    "id": 9,
+    "source": "Not so Hot / LinkedIn (research)",
+    "subject": "Research Internship Inquiry — [Your Name]",
+    "body": "Hello Dr./Prof. [Name],\n\nI hope you are doing well. My name is [Your Name], and I’m a [Year / Major / Program] at [University]. I’ve been reading your work on [specific research topic], and I’m very interested in contributing to your lab.\n\nI have experience in [techniques or software], and I recently worked on [project / course work] related to [research area]. I would be grateful for the opportunity to intern or assist in any ongoing projects, even in a volunteer capacity.\n\nWould you be open to discussing this possibility? Thank you for your time and consideration.\n\nSincerely,\n[Your Name]\n[Contact / University]"
+  },
+  {
+    "id": 10,
+    "source": "Zendesk (cold-email playbook)",
+    "subject": "Quick Question About Interning at [Company Name]",
+    "body": "Hi [Name],\n\nI’m [Your Name], a [Year / Major] at [University]. I’ve followed [Company Name] for a while and admire your work in [specific area].\n\nWould you be open to a quick chat about internship possibilities on your team? I think I can really bring value in [skill / domain], and I’d love to learn more.\n\nThanks,\n[Your Name]"
+  },
+  {
+    "id": 11,
+    "source": "Flodesk – Networking Email Template",
+    "subject": "Exploring Internship Opportunities at [Company Name]",
+    "body": "Hi [Name],\n\nI hope you’re doing well. I’m [Your Name], currently studying [Your Major] at [University]. I’ve been closely following [Company Name], and I'm particularly impressed by [something specific they do].\n\nI’d love to connect and learn more about how your team operates, and explore whether an internship might be possible. Would you be open to a short call or meeting? \n\nThank you for your time.\n\nRegards,\n[Your Name]"
+  },
+  {
+    "id": 12,
+    "source": "Flodesk – Thank You Template",
+    "subject": "Thank You — Great Connecting with You",
+    "body": "Hi [Name],\n\nThank you for taking the time to chat with me today. I truly appreciated learning more about [Company Name] and your work in [area].\n\nI’m excited about the possibility of contributing to your team, and as discussed, I’ll send over my resume / project samples. Please let me know if there’s anything else you’d like to see.\n\nThanks again, and I hope we can stay in touch.\n\nBest,\n[Your Name]"
+  },
+  {
+    "id": 13,
+    "source": "Flodesk – Follow-Up Template",
+    "subject": "Following Up on Internship Inquiry",
+    "body": "Hello [Name],\n\nI just wanted to follow up on my previous email regarding internship opportunities at [Company Name]. I understand you’re busy, so I appreciate any chance to reconnect or learn more about potential roles.\n\nThanks again for your time, and I look forward to hearing from you.\n\nWarm regards,\n[Your Name]"
+  },
+  {
+    "id": 14,
+    "source": "Flodesk – Referral Request Template",
+    "subject": "Could You Help Me with a Referral at [Company Name]?",
+    "body": "Hi [Name],\n\nI hope you’re well. I’m [Your Name], a [Your Year / Major] student at [University]. I saw that [Company Name] is hiring for [Intern / Role] and was hoping you might be comfortable referring me.\n\nI admire your work in [specific area], and I think my experience in [skill / project] could be a good match. I can send you my resume if you'd like to take a look.\n\nThanks so much for considering, and either way, I appreciate your time.\n\nBest,\n[Your Name]"
+  },
+  {
+    "id": 15,
+    "source": "Flodesk – Introduction Email (alternative)",
+    "subject": "Question from a Design Student",
+    "body": "Hey [Name],\n\nI'm [Your Name], currently studying [Your Major] at [University]. I came across [Company Name]’s work on [Project or Product], and I was really inspired by [something specific].\n\nI’m reaching out to see whether there is scope for an internship, or even to have a quick chat to understand your design philosophy / team structure.\n\nWould you be open to a 10-minute call? \n\nThank you,\n[Your Name]"
+  },
+  {
+    "id": 16,
+    "source": "Career Principles (Finance Internship)",
+    "subject": "Seeking Your Advice + Potential Internship Opportunity",
+    "body": "Dear [Name],\n\nMy name is [Your Name] and I’m a [Your Year / Major] at [University]. I’m very interested in a career in finance / investment banking, and I noticed you work at [Company Name].\n\nI’d love to learn more about your path, and also explore whether you might have internship opportunities (or know someone who does) at [Company Name].\n\nWould you be okay with a brief informational call? I’d greatly appreciate any guidance.\n\nThanks,\n[Your Name]"
+  },
+  {
+    "id": 17,
+    "source": "Career Principles (Finance Internship) – Another",
+    "subject": "Internship at [Company Name] – Reaching Out for Guidance",
+    "body": "Hi [Name],\n\nI’m [Your Name], currently studying [Your Major] at [University], and I’m very keen on landing a finance internship. I noticed your role at [Company Name] and wanted to reach out.\n\nMy experience so far includes [relevant coursework / project], and I believe with your insights, I could better align my application to what your team values.\n\nCould I ask for 10 minutes of your time for a quick call or chat? \n\nThank you for considering.\n\nSincerely,\n[Your Name]"
+  },
+  {
+    "id": 18,
+    "source": "Super-Angel (Ben Zises rules applied to internship)",
+    "subject": "Internship Request — [Your Name] at [Company Name]",
+    "body": "Hi [Name],\n\nI hope you're well. I'm [Your Name], and I'm reaching out to explore an internship role at [Company Name].\n\nI have experience in [relevant skills or tools], and I am very passionate about what your team is building in [domain / product area].\n\nWould you be open to a short call (10–15 min) to talk about potential opportunities and how I might contribute? \n\nThank you for your time.\n\nBest regards,\n[Your Name]"
+  },
+  {
+    "id": 19,
+    "source": "Jason Chen / Medium (From Cold Email to Internship)",
+    "subject": "Hope to Connect — Internship Inquiry",
+    "body": "Hello [Name],\n\nI’m [Your Name], a student at [University], and I’ve been following [Company Name] / your work for some time. I’m very interested in interning with your team.\n\nI’ve taken the initiative to learn [skill / technology], and I’ve worked on [project or relevant work]. \n\nI’d be grateful for 10 minutes of your time to discuss whether there’s an opportunity or to get your advice on how to approach your team. \n\nThank you so much,\n[Your Name]"
+  },
+  {
+    "id": 20,
+    "source": "Mailsuite (Ultimate Guide)",
+    "subject": "Internship Opportunity Inquiry – [Your Name]",
+    "body": "Dear [Recipient Name],\n\nI hope you're doing well. My name is [Your Name], a [Your Year / Major] at [University]. I'm writing to see if you have any internship opportunities available in [Department / Role] at [Company Name].\n\nIn my recent projects, I have gained experience in [Skill 1] and [Skill 2], which I believe could help contribute to your team. I’ve attached my resume for your review.\n\nIf possible, I’d love to schedule a brief call to discuss this further. Thank you for considering my request.\n\nBest regards,\n[Your Name]\n[Contact Information]"
+  }
+]

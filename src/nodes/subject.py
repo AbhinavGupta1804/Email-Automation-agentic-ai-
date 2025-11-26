@@ -6,7 +6,7 @@ def subject_node(state):
     Uses Gemini to generate a catchy subject line based on the email context.
     """
 
-    context = state.get("context", "") 
+    context = state.get("context") 
     if not context:
         return {"subject": "No context provided"}
     

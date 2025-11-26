@@ -15,6 +15,9 @@ class Config:
     def get_gemini_model(self):
         return self.config.get("GEMINI", "MODEL")
     
+    def get_embedding_model(self):
+        return self.config.get("EMBEDDING","EMBEDDING_MODEL")
+    
     def get_gemini_api_key(self):
         return os.getenv("GEMINI_API_KEY")
 
@@ -23,6 +26,7 @@ class Config:
     
     def get_sendgrid_api_key(self):
         return os.getenv("SENDGRID_API_KEY") 
+    
 
 
 

@@ -1,7 +1,9 @@
 fastapi
-uvicorn[standard]
+uvicorn
 pydantic
 python-dotenv
 sendgrid
 google-generativeai
+pdfplumber
 langgraph
+python-multipart

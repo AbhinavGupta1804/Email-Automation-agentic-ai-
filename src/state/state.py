@@ -7,3 +7,5 @@ class State(TypedDict):
     subject: Optional[str]    
     body: Optional[str]      
     final_email: Optional[dict]
+    jd: Optional[dict]
+    resume: Optional[dict]

@@ -3,30 +3,52 @@ model = initialize_gemini()
 
 def body_node(state):
     """
-    Uses Gemini to generate the body of the email.
+    Generates a natural, human-written cold email body using:
+    - JD
+    - Resume
+    - RAG retrieved similar email
     """
-    context = state.get("context","")
-    recipient = state.get("recipient", "")
-    
-    # Extract first name from email for personalization
-    name = recipient.split('@')[0] if recipient else "there"
-    
-    prompt = f"""Write a brief, conversational email body for this context: {context}
-                    Requirements:
-                    - Write like you're texting a colleague, not writing a formal letter
-                    - Be warm and genuine, not robotic
-                    - Keep it under 4 sentences
-                    - NO markdown formatting (no **, no *, no #)
-                    - NO phrases like "I hope this email finds you well"
-                    - Start with a casual greeting using the name: {name}
-                    - NO meta-commentary or explanations
-                    - Just the email body text
+    jd = state.get("jd", "")
+    resume = state.get("resume")
+    recipient = state.get("recipient")
+    user_prompt = state.get("context")
 
-                    Context: {context}
+    # Extract name
+    name = recipient.split("@")[0].split(".")[0].title() if recipient else "there"
 
-                    Email body:"""
-    
+    prompt = f"""
+You are writing a short cold email body to {name} for an internship/job inquiry.
+
+Here is the context you must use to write a better email:
+
+Job Description (JD):
+{jd}
+
+Candidate Resume:
+{resume}
+
+Your output MUST follow this exact structure:
+- The email body should be divided into EXACTLY 3 sections.
+- Between each section, add ONE blank line (two line breaks).
+- Section 1: Hyper-personalized intro line reading job description.
+- Section 2: Who the candidate is, why they are reaching out, what value they can create, and 2–3 skill proofs from projects.
+- Section 3: Why the candidate likes THIS company + a short call-to-action like “If you think there’s a fit, I’d love to connect or share a quick demo.”
+
+Additional requirements:
+- Tone: friendly, confident, conversational, casual .
+- 3–5 lines per section max.
+- Must NOT feel AI-generated.
+- No generic phrases like “I hope you're doing well”.
+- No markdown.
+- Start with: “Hey {name},”
+- Output ONLY the email body text — nothing else.
+- Do NOT merge sections into a single paragraph.
+
+Email body:
+
+
+"""
 
     response = model.generate_content(prompt)
-    body =  response.text.strip()
-    return {"body": body}  
+    return {"body": response.text.strip()}
+
