@@ -65,7 +65,7 @@ async def process(
 
 @app.get("/", response_class=HTMLResponse)
 def root():
-    return FileResponse("src/ui/index5.html")
+    return FileResponse("src/ui/index7.html")
 
 
 if __name__ == "__main__":

@@ -7,6 +7,7 @@ from src.nodes.send import send_email_node
 from langgraph.graph import StateGraph, START, END
 
 
+
 # Build the state graph
 graph = StateGraph(State)
 
