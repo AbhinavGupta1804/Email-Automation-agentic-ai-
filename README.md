@@ -74,10 +74,16 @@ src/
 ├── main.py
 ├── requirements.txt
 |-- Dockerfile
----
 ```
+![image](https://github.com/user-attachments/assets/ce966667-f582-4e95-a4c0-cf2aa5f071ad)
+
 ## 👨‍💻 Author  
 **Abhinav Gupta**  
+## 📬 Contact
+
+📧 Email: [abhi1804gupta@gmail.com](mailto:abhi1804gupta@gmail.com)
+
+🔗 LinkedIn: [Abhinav Gupta](https://www.linkedin.com/in/abhinav-gupta-369159282)
 
 
 If you found this project useful, please ⭐ the repository!
