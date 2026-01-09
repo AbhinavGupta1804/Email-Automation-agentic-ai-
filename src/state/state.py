@@ -9,3 +9,4 @@ class State(TypedDict):
     final_email: Optional[dict]
     jd: Optional[dict]
     resume: Optional[dict]
+    human_feedback: Optional[str]

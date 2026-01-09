@@ -1,33 +1,49 @@
-from sendgrid import SendGridAPIClient
-from sendgrid.helpers.mail import Mail
-from src.ui.config import Config
+import smtplib
+from email.mime.text import MIMEText
+from email.mime.multipart import MIMEMultipart
+import os
 
-def send_email_tool(state):
+
+def send_email_tool(state: dict) -> dict:
     """
-    Sends an email using SendGrid based on the data in the state.
-    Expects: state["recipient"], state["subject"], state["final_email"]
+    Sends email using Gmail SMTP with App Password.
+    Expects state['final_email'] = {
+        'to': str,
+        'subject': str,
+        'body': str
+    }
     """
-    config = Config()
-    email_data = state.get("final_email")
-    if not email_data["to"]:
-        print("❌ No recipient email found in state.")
+
+    email_data = state.get("final_email", {})
+
+    sender_email = os.getenv("GMAIL_USER")
+    app_password = os.getenv("GMAIL_APP_PASSWORD")
+
+    if not sender_email or not app_password:
+        print("❌ Gmail SMTP credentials missing")
+        state["email_status"] = "Failed"
         return state
 
     try:
-        sg = SendGridAPIClient(config.get_sendgrid_api_key())
-        message = Mail(
-            from_email=config.get_sender_email(),
-            to_emails=email_data.get("to"),
-            subject=email_data.get("subject"),
-            html_content = email_data.get("body")
-        )
+        # Create email
+        msg = MIMEMultipart()
+        msg["From"] = sender_email
+        msg["To"] = email_data["to"]
+        msg["Subject"] = email_data.get("subject", "No Subject")
 
-        response = sg.send(message)
-        print(f"✅ Email sent successfully! Status: {response.status_code}")
+        msg.attach(MIMEText(email_data["body"], "plain"))
+
+        # Gmail SMTP
+        with smtplib.SMTP("smtp.gmail.com", 587) as server:
+            server.starttls()
+            server.login(sender_email, app_password)
+            server.send_message(msg)
+
+        print("✅ Email sent via Gmail SMTP")
         state["email_status"] = "Sent"
 
     except Exception as e:
-        print(f"❌ Error sending email: {str(e)}")
+        print(f"❌ SMTP Email Error: {e}")
         state["email_status"] = "Failed"
 
     return state

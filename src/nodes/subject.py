@@ -5,12 +5,9 @@ def subject_node(state):
     """
     Uses Gemini to generate a catchy subject line based on the email context.
     """
-
-    context = state.get("context") 
-    if not context:
-        return {"subject": "No context provided"}
+    jd = state.get("jd", "")
     
-    prompt = f"""Generate ONLY a short email subject line (5-8 words max) for this context: {context}
+    prompt = f"""Generate ONLY a short email subject line (5-8 words max) for this jd: {jd}
     Requirements:
 - Write like a human, not AI
 - NO markdown, NO formatting, NO asterisks

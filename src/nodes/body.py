@@ -11,7 +11,7 @@ def body_node(state):
     jd = state.get("jd", "")
     resume = state.get("resume")
     recipient = state.get("recipient")
-    user_prompt = state.get("context")
+    context = state.get("context")
 
     # Extract name
     name = recipient.split("@")[0].split(".")[0].title() if recipient else "there"
@@ -26,6 +26,9 @@ Job Description (JD):
 
 Candidate Resume:
 {resume}
+
+Extra Context:
+{context}
 
 Your output MUST follow this exact structure:
 - The email body should be divided into EXACTLY 3 sections.
