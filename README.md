@@ -1,5 +1,5 @@
 # Agentic Cold Email Automation System 🚀  
-**Generative AI | FastAPI | LangGraph | Gemini 2.5 Flash | GCP | SendGrid**
+**Generative AI | FastAPI | LangGraph | Gemini 2.5 Flash | GCP | Gmail SMTP**
 
 A high-performance Agentic AI system that generates and sends fully personalized cold emails for job and internship seekers. The system uses Resume + Job Description inputs to create tailored, high-conversion outreach emails with extremely high efficiency.
 
@@ -22,7 +22,7 @@ Designed a modular **LangGraph pipeline** with **5 specialized nodes**, featurin
 This enables scalable, maintainable, production-level agentic workflows.
 
 ### 📧 Automated Email Dispatch (SendGrid)  
-Integrated **SendGrid API** for automated email sending with **99% delivery reliability**, ensuring fast and secure message delivery.
+Integrated **Gmail SMTP** for automated email sending, ensuring fast and secure message delivery.
 
 ### 🌩 Deployment  
 Fully containerized and deployed on **Google Cloud Run** for fast, serverless, globally accessible performance.
@@ -52,11 +52,6 @@ src/
 │   ├── router.py
 │   ├── send.py
 │   ├── subject.py
-│
-├── rag/
-│   ├── __init__.py
-│   ├── build_vectorstore.py
-│   ├── retriever.py
 │
 ├── state/
 │   ├── __init__.py
