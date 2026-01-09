@@ -31,7 +31,7 @@ Fully containerized and deployed on **Google Cloud Run** for fast, serverless, g
 
 ## 🔗 Live Demo  
 **GCP Cloud Run:**  
-https://coldemail-api-494741697224.europe-west1.run.app/
+https://emailone-269395596918.europe-west1.run.app/
 
 ## Folder Structure
 ```
