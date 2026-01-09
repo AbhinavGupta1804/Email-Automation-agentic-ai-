@@ -21,7 +21,7 @@ Designed a modular **LangGraph pipeline** with **5 specialized nodes**, featurin
 
 This enables scalable, maintainable, production-level agentic workflows.
 
-### 📧 Automated Email Dispatch (SendGrid)  
+### 📧 Automated Email Dispatch (SMTP)  
 Integrated **Gmail SMTP** for automated email sending, ensuring fast and secure message delivery.
 
 ### 🌩 Deployment  
